@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/product/product",
+    "pages/contact/contact",
+    "pages/detail/detail"
+    
+  ],
+  "window":{
+    "backgroundColor":"#eeeeee",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#000000",
+    "navigationBarTitleText": "全自动洗衣机",
+    "navigationBarTextStyle":"white"
+   
+  },
+  "tabBar": {
+    "backgroundColor": "#F5F8F7",
+    "selectedColor": "#EC3C00",
+    "borderStyle": "white",
+    "color": "#000000",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home-1.jpg",
+      "selectedIconPath": "images/home-2.jpg"
+       
+    },
+    {
+      "pagePath": "pages/product/product",
+      "text": "产品中心",
+      "iconPath": "images/product-1.jpg",
+      "selectedIconPath": "images/product-2.jpg"
+       
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "联系我们",
+      "iconPath": "images/contact.jpg",
+      "selectedIconPath": "images/contact.jpg"
+      
+    }
+    ]
+  }
+}

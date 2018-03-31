@@ -1,0 +1,6 @@
+<view>
+
+<image src='{{imageSrc}}' binderror='bindError'></image>
+<view class="{{instandText?'display-style':''}}" style='text-align:center'>图片还在上传中</view>
+</view>
+

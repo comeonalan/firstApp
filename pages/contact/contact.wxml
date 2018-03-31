@@ -1,0 +1,10 @@
+ <view  >
+<image style='width:100%'  src='../../images/index-1.jpg'></image>
+</view>
+
+<view style='display:block;text-align:center'>
+<view style='padding:10rpx;border-bottom:2rpx solid gray;'>售前咨询:021-2356816</view>
+<view style='padding:10rpx;border-bottom:2rpx solid gray;'>技术支持:18302174507</view>
+</view>
+
+<button  type="default" bindtap="calling">拨打电话</button>

@@ -1,0 +1,121 @@
+ .section1{
+ white-space: nowrap; 
+ display: flex;
+ height:  400rpx;
+
+ }
+
+ .section1_view{
+   width:100%;
+   height: 100%;
+   display:inline-block
+ }
+
+ .section1_view image{
+   height:97%;
+ }
+
+ .section2{
+   height:300rpx;
+   width:100%
+ }
+
+ .section2 .section2-1{
+display:flex;
+width:100%;
+height:50%
+ }
+
+ .section2 .section2-1 .section2-1-1{
+width:25%;
+height:100%
+ }
+
+ .section2-1-1 image{
+width:90%;
+height:70%;
+margin-left:10rpx;
+ }
+
+ .section2-1-1 view{
+   width:90%;
+   height:30%;
+   font-size:20rpx;
+   text-align:center;
+ }
+
+ .section3{
+   width:100%;
+   height:60rpx;
+   background-color: #095BDE;
+   text-align: center;
+   color: white;
+   font-size: 30rpx;
+   padding-top: 15rpx;
+ }
+
+ .section4{
+   width:100%;
+   height:400rpx;
+ }
+
+ .section4 image{
+   height: 400rpx;
+ }
+
+ .section5-row{
+   height: 400rpx;
+   width: 100%;
+   display: flex;
+   margin-top: 10rpx;
+ }
+
+ .section-row-column{
+   width: 50%;
+   height:380rpx;
+   background-color: lightgrey ;
+   margin-left: 10rpx;
+ }
+
+ .section-row-column image{
+   width: 350rpx;
+   height:80%;
+   margin: 0 6rpx;
+ }
+
+ .section-row-column .section-label{
+   text-align: center;
+   height:25%; 
+   font-size: 26rpx;
+   margin-top: -14rpx;
+ }
+
+  .section-row-column .section-label .section-label-1{
+    margin-top:-30rpx;
+  }
+.section-row-column .section-label .section-label-2{
+    color:red;
+  }
+
+
+/* *index.wxss*
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */

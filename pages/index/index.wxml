@@ -1,0 +1,208 @@
+<swiper class="section1"
+  autoplay interval="3000" duration="500" circular>
+   
+    <swiper-item class="section1_view">   
+<image style='width:100%' src='../../images/index-1.jpg' data-types='洗衣机' bindtap='navToDetail'/>
+    </swiper-item>
+       <swiper-item class="section1_view">   
+<image style='width:100%' src='../../images/index-1.jpg' data-types='洗衣机' bindtap='navToDetail'/>
+    </swiper-item>
+       <swiper-item class="section1_view">   
+<image style='width:100%' src='../../images/index-1.jpg' data-types='洗衣机' bindtap='navToDetail'/>
+    </swiper-item>
+       
+</swiper>
+
+
+
+<!-- 滑动部分 -->
+<!-- <scroll-view class="section1" scroll-x='true'  scroll-with-animation="true">
+ 
+ <view class="section1_view" >
+<image style='width:100%' id='image1'   src='../../images/index-1.jpg' ></image>
+</view>
+
+ <view class="section1_view" >
+<image style='width:100%'  id='image2'   src='../../images/index-1.jpg'></image>
+</view>
+
+ <view class="section1_view" >
+<image style='width:100%' id='image3'   src='../../images/index-1.jpg'></image>
+</view>
+ 
+</scroll-view> -->
+
+
+<!-- 2x4展示 -->
+<view class="section2">
+
+<view class="section2-1">
+
+<view class="section2-1-1" >
+<image   src='../../images/index-1.jpg' data-types='洗衣机' bindtap='navToProduct'></image>
+<view>
+洗衣机
+</view>
+</view>
+
+<view class="section2-1-1">
+<image  src='../../images/index-1.jpg' data-types='脱水机' bindtap='navToProduct'></image>
+<view>
+脱水机
+</view>
+</view>
+
+<view class="section2-1-1">
+<image  src='../../images/index-1.jpg' data-types='烘干机' bindtap='navToProduct'></image>
+<view>
+烘干机
+</view>
+</view>
+
+<view class="section2-1-1">
+<image  src='../../images/index-1.jpg' data-types='洗脱机' bindtap='navToProduct'></image>
+<view>
+洗脱机
+</view>
+</view>
+
+</view>
+
+<view class="section2-1">
+
+<view class="section2-1-1">
+<image  src='../../images/index-1.jpg' data-types='烫平机' bindtap='navToProduct'></image>
+<view >
+烫平机
+</view>
+</view>
+
+<view class="section2-1-1">
+<image src='../../images/index-1.jpg' data-types='折叠机' bindtap='navToProduct'></image>
+<view>
+折叠机
+</view>
+</view>
+
+<view class="section2-1-1">
+<image    src='../../images/index-1.jpg' data-types='清洗机' bindtap='navToProduct'></image>
+<view >
+清洗机
+</view>
+</view>
+
+<view class="section2-1-1">
+<image   src='../../images/index-1.jpg' data-types='离心机' bindtap='navToProduct'></image>
+<view >
+ 离心机
+</view>
+
+</view>
+
+</view>
+
+</view>
+
+
+<!-- 1条杠 -->
+ <view class="section3">
+厂家直销 加工定制
+</view>
+
+<view class="section4">
+<image src='../../images/index-2.jpg' data-types='脱水机' bindtap='navToDetail'></image>
+</view>
+
+<view class="section3">
+厂家直销 加工定制
+</view>
+
+<view class="section4">
+<image src='../../images/index-3.jpg' data-types='烘干机' bindtap='navToDetail'></image>
+</view>
+
+<view class="section3" style='color:yellow'>
+店长推荐专区
+</view>
+
+<!-- 4x2展示 -->
+
+<view class='section5'>
+
+<view class='section5-row'>
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='折叠机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">折叠机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='洗脱机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">洗脱烘一体机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+</view>
+
+<view class='section5-row'>
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='烫平机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">烫平机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='洗脱机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">全自动洗脱机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+</view>
+
+<view class='section5-row'>
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='烘干机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">全自动台式烘干机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='离心机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">平板离心机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+</view>
+
+<view class='section5-row'>
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='清洗机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">滤布清洗机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+<view class='section-row-column'>
+<image src='../../images/index-1.jpg' data-types='洗衣机' bindtap='navToDetail'></image>
+<view class="section-label">
+<view class="section-label-1">工业洗衣机</view>
+<view class="section-label-2">面议</view>
+</view>
+</view>
+
+</view>
+
+</view>

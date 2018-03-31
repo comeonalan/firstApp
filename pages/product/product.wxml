@@ -1,0 +1,33 @@
+
+
+<view class="row" >
+<view class="column">
+
+<view class="column-1">
+<block wx:for="{{classifyData}}">
+ <view class="border_padding {{item.toggle ?'selected':'unSelected'}}! ">
+ <view bindtap="selectTypes" data-index="{{index}}" data-toggle="{{item.toggle}}">
+            {{item.name}}
+          </view>
+        </view>
+      </block>
+</view>
+
+<view class="column-2">
+<block wx:for="{{productList}}">
+<view class="productObject" hidden='{{item.status}}'>
+<view class="productImage">
+ <image  mode="{{item.mode}}" src="{{item.imageSrc}}" data-types='{{item.types}}' bindtap='navToDetail'></image>
+</view>
+<view class="nameObject"> 
+<view>{{item.name}}</view>
+<view class="price-color">价格：{{item.price}}</view>
+</view>
+</view>
+</block>
+</view>
+
+
+
+</view>
+</view>
